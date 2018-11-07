@@ -1,0 +1,30 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+.jumbotron {
+
+background-image: url("..\images\zoo.jpg");
+    margin-bottom: 0px;
+    color: rgb(126, 10, 235);
+    text-shadow: rgb(153, 121, 121) 0.3em 0.3em 0.3em;
+    /* background: transparent; */
+    font-size: large;
+    
+}
+
+.panel-body {
+    background-color: #becad1;
+
+}
+
+.panel-title {
+    font-size:x-large;
+
+}
+
+.zooPic {
+    image-resolution: 150pi;
+    width:100%;
+}
