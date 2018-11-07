@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Hangout Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<!-- <style>
+    .JumboHeaderImg{
+        background-image: url("C:\Users\sandh\BC_Assignments\Word-Guess-Game\assets\images\zoo.pic");
+        background-size: cover;
+    }
+</style> -->
+
+<body>
+        
+                <div class="bg"></div>
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="assets\images\zoo.pic" class="img-rounded">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="page-header">
+                                <h2> Hybridisation Recombination and Introgression Detection and Dating </h2>
+                                <p> <h2> <small> Easy detection, dating, and visualisation for recombination, introgression and hybridisation events in genomes. </small> </h2> </p>
+                            </div>
+                        </div>
+                    </div>
+
+     <!-- <div class="container">
+        <div class="jumbotron JumboHeaderImg">
+            <h1>Word Guess Game</h1>
+            <p>Guess animal name</p>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Word to guess</h3>
+            </div>
+        
+        <div class="panel-body">
+            <h2 id="wordToGuess">--------</h2>
+        </div>
+    </div>
+     -->
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            Wrong Guesses: <span id="wrongGuesses"></span>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            Guesses left: <span id="numGuesses"></span>
+        </div>
+    </div>
+    <div class="panel panel-default">
+            <div class="panel-body">
+                    Win Counter: <span id="winCounter"></span>
+            </div>
+        </div>
+        <div class="panel panel-default">
+                <div class="panel-body">
+                        Loss Counter: <span id="lossCounter"></span>
+                </div>
+            </div>
+
+
+
+    </div>
+
+
+    <script src="logic.js"></script>
+
+</body>
+
+</html>
